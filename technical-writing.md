@@ -51,6 +51,7 @@ git pull origin main
 ```
 
 main 브랜치에서 feat/#1과 같은 라인의 코드를 작성했기 때문에 충돌이 발생합니다. 이제 로컬 환경에서 충돌을 해결하고 다시 commit을 추가합니다.
+
 ![](https://velog.velcdn.com/images/magnolia0840/post/220abaa3-1c7c-4bd2-b412-f0324750a919/image.png)
 
 갈라졌던 분기가 다시 하나로 합쳐서 있는 것을 볼 수 있습니다. 물론 아직 브랜치가 합쳐진 것은 아닙니다. 이제 Github에서 브랜치를 합치겠습니다.
@@ -102,9 +103,11 @@ Rebase는 기본적으로 병합할 브랜치의 커밋을 다른 브랜치의 �
 이 방식은 커밋 히스토리를 다시 작성하여 직선적인 히스토리를 유지할 수 있습니다. Rebase and Merge는 두 브랜치의 히스토리를 직선으로 만들고, 병합 커밋을 생략하여 Git 히스토리가 깔끔하게 유지됩니다.
 
 아래와 같이 2개의 브랜치가 있는 상태에서 `rebase and merge`를 하면
+
 ![](https://velog.velcdn.com/images/magnolia0840/post/f197864f-60b5-441e-86dd-a4e3bc155ef9/image.png)
 
 하나의 브랜치가 된다.
+
 ![](https://velog.velcdn.com/images/magnolia0840/post/b8a58f6f-a43d-4e1c-9649-5048634481b8/image.png)
 
 > X, Y, Z가 X', Y', Z'로 바뀐 이유는 commit이 옮겨지면서 commit의 hash 값이 달라지기 때문입니다. hash 값은 달라져도 소스 코드에 영향을 미치지는 않습니다.
