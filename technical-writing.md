@@ -1,3 +1,5 @@
+# [Git] Github에서 서로 다른 branch를 합치는 방법에는 무엇이 있을까?
+
 # 서론
 
 사람들과 팀 프로젝트를 하게 되면 `형상 관리 툴`을 필수적으로 사용하게 되고 그 중 가장 대중적인 툴이 `Git`라는 프로그램입니다. 이 `Git`을 사용해 사람들과 협업을 할려면 원격에 저장소를 두고 소스 코드를 공유해야 하는데 이 때 가장 대표적으로 사용되는 것이 `Github`입니다.
@@ -18,7 +20,7 @@ Github에서 작성한 PR(Pull Request)를
 
 # Merge Commit
 
-![](https://velog.velcdn.com/images/magnolia0840/post/7dcea5eb-4a76-41dd-a74e-26972b2190c6/image.png)
+![](https://velog.velcdn.com/images/magnolia0840/post/86bbc997-8b3b-453b-95d6-753486958ef5/image.png)
 
 ## Merge Commit 개념 설명
 
@@ -94,7 +96,7 @@ main 브랜치에서 feat/#1과 같은 라인의 코드를 작성했기 때문�
 
 # Rebase and Merge
 
-![](https://velog.velcdn.com/images/magnolia0840/post/58a7c779-473d-41e0-9a90-f6734f87bb51/image.png)
+![](https://velog.velcdn.com/images/magnolia0840/post/f1c53a77-5189-4ecf-b659-20b716804072/image.png)
 
 ## Rebase and Merge 개념 설명
 
@@ -183,7 +185,7 @@ local에서는 rebase를 하는 순간에 현재 commit이 main 브랜치의 마
 
 # Squash and Merge
 
-![](https://velog.velcdn.com/images/magnolia0840/post/2f008774-1076-4925-8852-155c17f0eef9/image.png)
+![](https://velog.velcdn.com/images/magnolia0840/post/ef66a9be-2585-4490-8f71-f599ff32d75c/image.png)
 
 ## Squash and Merge 개념 설명
 
